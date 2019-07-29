@@ -1,29 +1,46 @@
-# element-start
+# element-starter
+## Environment
+`Node v10.16.0`
+## dependencies
+`element-ui v1.11.1`
+`vue-router v3.0.7`
+`vuex v3.1.1`
 
-## Project setup
+## Getting Start
+* Clone  this repository
+```
+git clone https://github.com/laiiihz/element-starter
+```
+* Install dependencies
 ```
 yarn install
 ```
-
-### Compiles and hot-reloads for development
+or
 ```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
+npm install
 ```
 
-### Run your tests
+## Custom Settings Using Vue Cli
 ```
-yarn run test
+vue ui
 ```
-
-### Lints and fixes files
+##Develop
 ```
-yarn run lint
+yarn serve
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+or
+```
+npm run serve
+```
+## Build
+```
+yarn build
+```
+or
+```
+npm run build
+```
+## Tool Features
+### Web Storm
+* Reformat with Prettier
+`shift`+`ctrl`+`alt`+`p`
